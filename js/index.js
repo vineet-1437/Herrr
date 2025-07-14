@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|MY|CUTEE|OESHIKHA|❤|');
+      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|MY BABY|KILLER BOSS LADY|❤|');
     }
 
     S.Drawing.loop(function () {
